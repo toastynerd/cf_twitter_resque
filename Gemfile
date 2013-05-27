@@ -9,7 +9,7 @@ gem 'sqlite3'
 
 gem 'twitter'
 gem 'resque', :require => 'resque/server'
-gem 'resque_sceduler'
+gem 'resque-scheduler'
 
 
 
@@ -23,7 +23,7 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
-  gem 'zurb_foundation'
+  gem 'zurb-foundation'
 end
 
 group :test do
