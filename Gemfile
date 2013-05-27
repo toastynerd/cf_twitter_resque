@@ -10,6 +10,7 @@ gem 'sqlite3'
 gem 'twitter'
 gem 'resque', :require => 'resque/server'
 gem 'resque-scheduler'
+gem 'dynamic_form'
 
 
 

@@ -1,0 +1,7 @@
+<div class="panel large-8">
+  <h2>tweets</h2>
+  <% @tweets.each do |tweet| %>
+    <%= link_to tweet.post_at, tweet %>
+  <% end %>
+  <%= link_to "New Tweet", new_tweet_path, :class => "button" %>
+</div>
