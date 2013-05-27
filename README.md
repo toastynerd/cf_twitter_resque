@@ -8,3 +8,6 @@ change to twitter.rb
 
 Also, make sure to put the path to your redis server in both
 lib/tasks/resque.rake and the tweets_controller
+
+You'll also need to run rake resque:scheduler and rake resque:work 
+to get started.
